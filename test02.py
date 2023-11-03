@@ -13,6 +13,9 @@ class IoTThailand :
     def showData(salf) :
         print(salf.wow * 20)
 
+# destutro ไม่ใช่ number แต่จะทำงานทุกครั้งที่ object ทำงานเสร็จ (ถูกทำลายทิ้ง)
+def _del_(self) :
+    print('Good moning')
 
 ob1 = IoTThailand(10, 20, 10)
 ob2 = IoTThailand(10, 20, 30)
